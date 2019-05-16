@@ -1,8 +1,31 @@
 <!DOCTYPE html><html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>html{ font-family: Helvetica; display: inline-block; text-align: center; margin: 0px auto; background-color: #001724; color: white;}
+
+        .RED{
+
+            float: center;
+
+            display: inline-block;
+
+            z-index: 1;
+
+        }
+ </style></head>        
+
+      <html>
+
+      <body>
+
+
 <form action="/Servo=UP%Speed=120%">
-<input type="submit" value="UP2">
+<div class="RED">
+<input type="submit" value="UP">
+</div>
 </form>
 <form action="/Servo=DOWN%Speed=70%">
+<div class="RED">
 <input type="submit" value="DOWN">
+</div>
 </form>
 </html>
