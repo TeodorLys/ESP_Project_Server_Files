@@ -20,12 +20,12 @@
 
 <form action="/Servo=UP%Speed=120%">
 <div class="RED">
-<input type="submit" name="UP">
+<input type="submit" name="UP" value="UP">
 </div>
 </form>
 <form action="/Servo=DOWN%Speed=70%">
 <div class="RED">
-<input type="submit" name="DOWN">
+<input type="submit" name="DOWN" value="DOWN">
 </div>
 </form>
 </html>
