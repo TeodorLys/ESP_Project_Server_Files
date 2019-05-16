@@ -1,5 +1,5 @@
 <!DOCTYPE html><html>
-<head><meta name="viewport" content="width=device-width, initial-scale=1">
+<head><meta name="viewport" content="width=device-width, initial-scale=2">
     <style>html{ font-family: Helvetica; display: inline-block; text-align: center; margin: 0px auto; background-color: #001724; color: white; font-size: 16px; cursor: pointer;}
 
         .UP{
@@ -51,10 +51,10 @@
   </form>
   
   <form action="/Servo=UP%Speed=120%">
-      <input type="submit" class="UP_OVERRIDE" name="UP" onclick="if (confirm('Are you...?')) commentDelete(1); return false" value="UP OVERRIDE">
+      <input type="submit" class="UP_OVERRIDE" name="UP" onclick="if (confirm('Are you sure it is DOWN?')) commentDelete(1); return false" value="UP OVERRIDE">
   </form>
   <form action="/Servo=DOWN%Speed=70%">
-      <input type="submit" class="DOWN_OVERRIDE" name="DOWN" onclick="if (confirm('Are you...?')) commentDelete(1); return false" value="DOWN OVERRIDE">
+      <input type="submit" class="DOWN_OVERRIDE" name="DOWN" onclick="if (confirm('Are you sure it is UP?')) commentDelete(1); return false" value="DOWN OVERRIDE">
   </form>
   
   <script>
