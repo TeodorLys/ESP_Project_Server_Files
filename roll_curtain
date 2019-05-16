@@ -3,12 +3,12 @@
     <style>html{ font-family: Helvetica; display: inline-block; text-align: center; margin: 0px auto; background-color: #001724; color: white;}
 
         .RED{
-
-            float: center;
-
-            display: inline-block;
-
-            z-index: 1;
+          border: none;
+          background-color: inherit;
+          padding: 14px 28px;
+          font-size: 16px;
+          cursor: pointer;
+          display: inline-block;
 
         }
  </style></head>        
