@@ -1,6 +1,6 @@
 <!DOCTYPE html><html>
 <form action="/Servo=UP%Speed=120%">
-<input type="submit" value="UP">
+<input type="submit" value="UP2">
 </form>
 <form action="/Servo=DOWN%Speed=70%">
 <input type="submit" value="DOWN">
