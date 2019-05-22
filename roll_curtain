@@ -43,10 +43,10 @@
    <html>
   <body>
 
-  <form action="/Servo=UP%Speed=120%">
+  <form action="/Servo=UP%Speed=120%Revs=8%">
       <input type="submit" class="UP" name="UP" value="UP">
   </form>
-  <form action="/Servo=DOWN%Speed=70%">
+  <form action="/Servo=DOWN%Speed=70%Revs=8%">
       <input type="submit" class="DOWN" name="DOWN" value="DOWN">
   </form>
   
