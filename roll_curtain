@@ -50,10 +50,10 @@
       <input type="submit" class="DOWN" name="DOWN" value="DOWN">
   </form>
   
-  <form action="/Servo=UP%Speed=120%">
+  <form action="/Servo=UP%Speed=120%Revs=8%">
       <input type="submit" class="UP_OVERRIDE" name="UP" onclick="if (confirm('Are you sure it is DOWN?')) commentDelete(1); return false" value="UP OVERRIDE">
   </form>
-  <form action="/Servo=DOWN%Speed=70%">
+  <form action="/Servo=DOWN%Speed=70%Revs=8%">
       <input type="submit" class="DOWN_OVERRIDE" name="DOWN" onclick="if (confirm('Are you sure it is UP?')) commentDelete(1); return false" value="DOWN OVERRIDE">
   </form>
   
